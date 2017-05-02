@@ -1,24 +1,20 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import MyTitle from './MyTitle'
+import { render } from 'react-dom'
+import '../public/normalize.css'
+import '../public/style.css'
 
-var div = React.DOM.div
-
-var MyTitleFactory = React.createFactory(MyTitle)
-
-var MyFirstComponent = React.createClass({
-  render: function () {
+const App = React.createClass({
+  render () {
     return (
-      div(null,
-        MyTitleFactory({title: 'props are lit af', color: 'peru'}), // read Only Props
-        MyTitleFactory({title: 'lets get it', color: 'tomato'}),
-        MyTitleFactory({title: 'next level', color: 'wheat'}),
-        MyTitleFactory({title: 'turnip turnip', color: 'mediumaquamarine'}),
-        MyTitleFactory({title: 'props are lit af', color: 'peru'})
-      )
+      <div className='app'>
+        <div className='landing'>
+          <h1>Turnip Ventures</h1>
+          <input type='text' placeholder='Search' />
+          <a>or Browse All</a>
+        </div>
+      </div>
     )
   }
 })
 
-ReactDOM.render(React.createElement(MyFirstComponent), document.getElementById('app'))
-// front door, deos not export anything
+render(<App />, document.getElementById('app'))
