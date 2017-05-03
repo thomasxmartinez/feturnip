@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test jest",
-    "update-test": "npm run test -- -u",
+    "lint": "eslint js/**/*.js webpack.config.js",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "standard",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "test": "NODE_ENV=test jest",
+    "update-test": "npm run test -- -u",
+    "cover": "npm run test -- --coverage",
+    "start": "NODE_ENV=server node server.js"
   },
   "repository": {
     "type": "git",
@@ -49,7 +51,7 @@
     "css-loader": "0.25.0",
     "enzyme": "2.0.0",
     "enzyme-to-json": "^1.3.0",
-    "eslint": "3.6.1",
+    "eslint": "^3.19.0",
     "eslint-config-standard": "6.1.0",
     "eslint-config-standard-jsx": "3.1.0",
     "eslint-config-standard-react": "4.1.0",
