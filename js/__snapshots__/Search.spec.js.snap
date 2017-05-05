@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search snapshot test 1`] = `
+<div
+  className="search"
+>
+  <header>
+    <h1>
+      Turnip Video 
+    </h1>
+    <input
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </header>
+  <div>
+    <ShowCard
+      Awards="Won 2 Golden Globes. Another 14 wins & 84 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="A comedy about the experiences of a group of girls in their early 20s."
+      imdbID="tt1723816"
+      imdbRating="7.3"
+      imdbVotes="53,947"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1Mzk2ODEzN15BMl5BanBnXkFtZTgwNDQwMjAxMTI@._V1_SX300.jpg"
+      title="Girls"
+      totalSeasons="6"
+      trailer="554bdNWCXmA"
+      year="2012–"
+    />
+    <ShowCard
+      Awards="Won 1 Golden Globe. Another 238 wins & 394 nominations."
+      Country="USA, UK"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="Nine noble families fight for control over the mythical lands of Westeros; A forgotten race returns after being dormant for thousands of years."
+      imdbID="tt0944947"
+      imdbRating="9.5"
+      imdbVotes="1,138,018"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwOTcxODc2Ml5BMl5BanBnXkFtZTgwMjMyMDk2MTI@._V1_SX300.jpg"
+      title="Game of Thrones"
+      totalSeasons="8"
+      trailer="LNGW6mmemz8"
+      year="2011–"
+    />
+    <ShowCard
+      Awards="Nominated for 1 Golden Globe. Another 1 win & 9 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="Follows the awkward experiences and racy tribulations of a modern-day African-American woman."
+      imdbID="tt5024912"
+      imdbRating="7.6"
+      imdbVotes="3,332"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NjgyNjkyMV5BMl5BanBnXkFtZTgwMTI0MjYyMDI@._V1_SX300.jpg"
+      title="Insecure"
+      totalSeasons="2"
+      trailer="YdKqUMZi5-I"
+      year="2016–"
+    />
+    <ShowCard
+      Awards="Nominated for 2 Golden Globes. Another 12 wins & 56 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="Follows the struggle of Richard Hendricks, a silicon valley engineer trying to build his own company called Pied Piper"
+      imdbID="tt2575988"
+      imdbRating="8.5"
+      imdbVotes="71,209"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BOTA4MTE3MTQwMF5BMl5BanBnXkFtZTgwNzk4MTg4MTI@._V1_SX300.jpg"
+      title="Silicon Valley"
+      totalSeasons="4"
+      trailer="mydFes629og"
+      year="2014–"
+    />
+    <ShowCard
+      Awards="N/A"
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Ratings={
+        Array [
+          Object {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10",
+          },
+        ]
+      }
+      Response="True"
+      description="Mob boss deals with issues dealing with business and family"
+      imdbID="tt3471316"
+      imdbRating="7.0"
+      imdbVotes="6"
+      poster="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpopculture.mearsonlineauctions.com%2FItemImages%2F000054%2F54804a_lg.jpeg&f=1"
+      title="Sopranos"
+      trailer="d7ryT2XHuHc"
+      year="2014"
+    />
+    <ShowCard
+      Response="True"
+      description="A New York writer on sex and love is finally getting married to her Mr. Big. But her three best girlfriends must console her after one of them inadvertently leads Mr. Big to jilt her."
+      imdbID="tt1000774"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMzYxMjM3OF5BMl5BanBnXkFtZTcwNjg2OTA3MQ@@._V1_SX300.jpg"
+      title="Sex and the City"
+      trailer="g9Mx2OLnoGI"
+      year="2008"
+    />
+    <ShowCard
+      Awards="Nominated for 2 Primetime Emmys. Another 14 wins & 51 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="A series chronicling the daily activities of an unusual prison facility and its criminal inhabitants."
+      imdbID="tt0118421"
+      imdbRating="8.8"
+      imdbVotes="70,953"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BOTAxOTg2ODM3MF5BMl5BanBnXkFtZTgwMjIyMzgwMzE@._V1_SX300.jpg"
+      title="Oz"
+      totalSeasons="6"
+      trailer="fxGJyYb9_po"
+      year="1997–2003"
+    />
+    <ShowCard
+      Awards="Won 1 Golden Globe. Another 33 wins & 24 nominations."
+      Country="USA, UK"
+      Language="English, Dutch, French, German, Lithuanian"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="The story of Easy Company of the US Army 101st Airborne division and their mission in WWII Europe from Operation Overlord through V-J Day."
+      imdbID="tt0185906"
+      imdbRating="9.5"
+      imdbVotes="256,362"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3ODc2ODc0M15BMl5BanBnXkFtZTYwMjgzNjc3._V1_SX300.jpg"
+      title="Band of Brothers"
+      totalSeasons="1"
+      trailer="baHpyONCMnM"
+      year="2001"
+    />
+    <ShowCard
+      Awards="Nominated for 7 Golden Globes. Another 47 wins & 135 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="Former Senator Selina Meyer finds that being Vice President of the United States is nothing like she hoped and everything that everyone ever warned her about."
+      imdbID="tt1759761"
+      imdbRating="8.2"
+      imdbVotes="27,875"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BODUxMDI2Mzc5Nl5BMl5BanBnXkFtZTgwNTQ0OTc2MTI@._V1_SX300.jpg"
+      title="Veep"
+      totalSeasons="6"
+      trailer="eYt6r4dY5Ms"
+      year="2012–"
+    />
+    <ShowCard
+      Awards="3 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="A series centered around a group of football players and their families, friends, and handlers."
+      imdbID="tt2891574"
+      imdbRating="7.6"
+      imdbVotes="21,799"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BOTkwNTc3MjM3MV5BMl5BanBnXkFtZTgwOTU5ODgxOTE@._V1_SX300.jpg"
+      title="Ballers"
+      totalSeasons="2"
+      trailer="gPZ8Ooxytag"
+      year="2015–"
+    />
+    <ShowCard
+      Awards="1 win."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="An over protective father is obsessed with becoming a principal and competes against the popular vice principal. However something happens that makes them work together to save the day."
+      imdbID="tt3766376"
+      imdbRating="7.9"
+      imdbVotes="9,689"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5NjU1MjE0M15BMl5BanBnXkFtZTgwMTQyODgxOTE@._V1_SX300.jpg"
+      title="Vice Principals"
+      totalSeasons="2"
+      trailer="bPs33txZ5G0"
+      year="2016-"
+    />
+    <ShowCard
+      Awards="Nominated for 3 Golden Globes. Another 14 wins & 39 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Rated="TV-MA"
+      Response="True"
+      Type="series"
+      description="Set at the intersection of the near future and the reimagined past, explore a world in which every human appetite, no matter how noble or depraved, can be indulged without consequence."
+      imdbID="tt0475784"
+      imdbRating="9.0"
+      imdbVotes="163,386"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTEyODk5NTc2MjNeQTJeQWpwZ15BbWU4MDQ5NTgwOTkx._V1_SX300.jpg"
+      title="Westworld"
+      totalSeasons="2"
+      trailer="IuS5huqOND4"
+      year="2016–"
+    />
+    <ShowCard
+      Awards="N/A"
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="A New York comic is forced to make a new start for himself after his wife leaves him."
+      imdbID="tt5037914"
+      imdbRating="7.3"
+      imdbVotes="1,239"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyNjIwOTgwM15BMl5BanBnXkFtZTgwNjgwMzA0MTI@._V1_SX300.jpg"
+      title="Crashing"
+      totalSeasons="1"
+      trailer="Y11cJ12xgtc"
+      year="2017–"
+    />
+    <ShowCard
+      Awards="Won 2 Golden Globes. Another 59 wins & 173 nominations."
+      Country="USA"
+      Language="English"
+      Metascore="N/A"
+      Response="True"
+      Type="series"
+      description="An Atlantic City politician plays both sides of the law, conspiring with gangsters during the Prohibition era."
+      imdbID="tt0979432"
+      imdbRating="8.6"
+      imdbVotes="143,024"
+      poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMjNhODE1M2YtMjFmMC00YTliLThhNDktMzI0MjljMzI3NDVjL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+      title="Boardwalk Empire"
+      totalSeasons="5"
+      trailer="e6z71l6HQwQ"
+      year="2010–2014"
+    />
+  </div>
+</div>
+`;
