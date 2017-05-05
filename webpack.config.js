@@ -9,7 +9,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    publicPath: '/public',
+    publicPath: '/public/',
     historyApiFallback: true
   },
   resolve: {
@@ -38,7 +38,7 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
-        test: /\.css/,
+        test: /\.css$/,
         use: [
           'style-loader',
           {
