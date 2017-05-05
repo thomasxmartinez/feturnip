@@ -7,7 +7,7 @@ import store from './store'
 import { setSearchTerm } from './actionCreators'
 import { shallow, render } from 'enzyme'
 import { shallowToJson } from 'enzyme-to-json'
-import preload from '../public/data.json'
+import preload from '../style/data.json'
 
 test('Search snapshot', () => {
   const component = shallow(<UnwrappedSearch shows={preload.shows} searchTerm='' />)

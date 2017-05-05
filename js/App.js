@@ -1,9 +1,14 @@
+require('./style/normalize.css')
+require('./style/style.css')
+require('./style/img/3.jpg')
+
+const preload = require('./style/data.json')
 import React from 'react'
 import { Match } from 'react-router'
 import { Provider } from 'react-redux'
 import store from './store'
 import AsyncRoute from './AsyncRoute'
-import preload from '../public/data.json'
+
 if (global) {
   global.System = { import () {} }
 }

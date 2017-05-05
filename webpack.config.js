@@ -39,6 +39,10 @@ module.exports = {
         loader: 'json-loader'
       },
       {
+        test: /\.jpg$/,
+        loader: 'url-loader'
+      },
+      {
         include: [
           path.resolve(__dirname, 'js'),
           path.resolve('node_modules/preact-compat/src')
