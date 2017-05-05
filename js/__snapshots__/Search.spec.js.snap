@@ -1,20 +1,8 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Search snapshot test 1`] = `
+exports[`test Search snapshot 1`] = `
 <div
-  className="search"
->
-  <header>
-    <h1>
-      Turnip Video 
-    </h1>
-    <input
-      onChange={[Function]}
-      placeholder="Search"
-      type="text"
-      value=""
-    />
-  </header>
+  className="search">
+  <Connect(Header)
+    showSearch={true} />
   <div>
     <ShowCard
       Awards="Won 2 Golden Globes. Another 14 wins & 84 nominations."
@@ -31,8 +19,7 @@ exports[`Search snapshot test 1`] = `
       title="Girls"
       totalSeasons="6"
       trailer="554bdNWCXmA"
-      year="2012–"
-    />
+      year="2012–" />
     <ShowCard
       Awards="Won 1 Golden Globe. Another 238 wins & 394 nominations."
       Country="USA, UK"
@@ -48,8 +35,7 @@ exports[`Search snapshot test 1`] = `
       title="Game of Thrones"
       totalSeasons="8"
       trailer="LNGW6mmemz8"
-      year="2011–"
-    />
+      year="2011–" />
     <ShowCard
       Awards="Nominated for 1 Golden Globe. Another 1 win & 9 nominations."
       Country="USA"
@@ -65,8 +51,7 @@ exports[`Search snapshot test 1`] = `
       title="Insecure"
       totalSeasons="2"
       trailer="YdKqUMZi5-I"
-      year="2016–"
-    />
+      year="2016–" />
     <ShowCard
       Awards="Nominated for 2 Golden Globes. Another 12 wins & 56 nominations."
       Country="USA"
@@ -82,8 +67,7 @@ exports[`Search snapshot test 1`] = `
       title="Silicon Valley"
       totalSeasons="4"
       trailer="mydFes629og"
-      year="2014–"
-    />
+      year="2014–" />
     <ShowCard
       Awards="N/A"
       Country="USA"
@@ -93,8 +77,8 @@ exports[`Search snapshot test 1`] = `
         Array [
           Object {
             "Source": "Internet Movie Database",
-            "Value": "7.0/10",
-          },
+            "Value": "7.0/10"
+          }
         ]
       }
       Response="True"
@@ -105,8 +89,7 @@ exports[`Search snapshot test 1`] = `
       poster="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpopculture.mearsonlineauctions.com%2FItemImages%2F000054%2F54804a_lg.jpeg&f=1"
       title="Sopranos"
       trailer="d7ryT2XHuHc"
-      year="2014"
-    />
+      year="2014" />
     <ShowCard
       Response="True"
       description="A New York writer on sex and love is finally getting married to her Mr. Big. But her three best girlfriends must console her after one of them inadvertently leads Mr. Big to jilt her."
@@ -114,8 +97,7 @@ exports[`Search snapshot test 1`] = `
       poster="https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMzYxMjM3OF5BMl5BanBnXkFtZTcwNjg2OTA3MQ@@._V1_SX300.jpg"
       title="Sex and the City"
       trailer="g9Mx2OLnoGI"
-      year="2008"
-    />
+      year="2008" />
     <ShowCard
       Awards="Nominated for 2 Primetime Emmys. Another 14 wins & 51 nominations."
       Country="USA"
@@ -131,8 +113,7 @@ exports[`Search snapshot test 1`] = `
       title="Oz"
       totalSeasons="6"
       trailer="fxGJyYb9_po"
-      year="1997–2003"
-    />
+      year="1997–2003" />
     <ShowCard
       Awards="Won 1 Golden Globe. Another 33 wins & 24 nominations."
       Country="USA, UK"
@@ -148,8 +129,7 @@ exports[`Search snapshot test 1`] = `
       title="Band of Brothers"
       totalSeasons="1"
       trailer="baHpyONCMnM"
-      year="2001"
-    />
+      year="2001" />
     <ShowCard
       Awards="Nominated for 7 Golden Globes. Another 47 wins & 135 nominations."
       Country="USA"
@@ -165,8 +145,7 @@ exports[`Search snapshot test 1`] = `
       title="Veep"
       totalSeasons="6"
       trailer="eYt6r4dY5Ms"
-      year="2012–"
-    />
+      year="2012–" />
     <ShowCard
       Awards="3 nominations."
       Country="USA"
@@ -182,8 +161,7 @@ exports[`Search snapshot test 1`] = `
       title="Ballers"
       totalSeasons="2"
       trailer="gPZ8Ooxytag"
-      year="2015–"
-    />
+      year="2015–" />
     <ShowCard
       Awards="1 win."
       Country="USA"
@@ -199,8 +177,7 @@ exports[`Search snapshot test 1`] = `
       title="Vice Principals"
       totalSeasons="2"
       trailer="bPs33txZ5G0"
-      year="2016-"
-    />
+      year="2016-" />
     <ShowCard
       Awards="Nominated for 3 Golden Globes. Another 14 wins & 39 nominations."
       Country="USA"
@@ -217,8 +194,7 @@ exports[`Search snapshot test 1`] = `
       title="Westworld"
       totalSeasons="2"
       trailer="IuS5huqOND4"
-      year="2016–"
-    />
+      year="2016–" />
     <ShowCard
       Awards="N/A"
       Country="USA"
@@ -234,8 +210,7 @@ exports[`Search snapshot test 1`] = `
       title="Crashing"
       totalSeasons="1"
       trailer="Y11cJ12xgtc"
-      year="2017–"
-    />
+      year="2017–" />
     <ShowCard
       Awards="Won 2 Golden Globes. Another 59 wins & 173 nominations."
       Country="USA"
@@ -251,8 +226,7 @@ exports[`Search snapshot test 1`] = `
       title="Boardwalk Empire"
       totalSeasons="5"
       trailer="e6z71l6HQwQ"
-      year="2010–2014"
-    />
+      year="2010–2014" />
   </div>
 </div>
 `;
