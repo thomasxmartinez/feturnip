@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: 'Francois One', sans-serif;;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
 }
 
 .app {
@@ -35,8 +35,8 @@ html {
 }
 
 .landing > h1 {
-  color: #00FFFF;
-  font-family: 'Francois One', sans-serif;;
+  color: #B10DC9;
+  font-family: Skia;
   font-weight: normal;
 }
 
@@ -171,19 +171,19 @@ header {
   left: 0;
   width: 100%;
   overflow: hidden;
-  background-color: #0c005c;
+  background-color: #fafafa;
   padding: 8px 30px;
 }
 
 header > h1 {
-  font-family: 'Francois One', sans-serif;
+  font-family: Skia;
   font-weight: normal;
-  color: #00FFFF;
+  color: #B10DC9;
   margin: 0;
 }
 
 header > h1 > a {
-  color: #00FFFF;
+  color: #B10DC9;
   text-decoration: none;
 }
 
