@@ -8,6 +8,7 @@ yarn.lock
 *node_modules
 node_modules/
 *bundle.js
+bundle.js
 *bundle*
 .DS_Store
 
