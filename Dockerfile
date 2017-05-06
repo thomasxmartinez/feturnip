@@ -1,11 +1,15 @@
-FROM risingstack/alpine:3.3-v4.2.6-1.1.3
+FROM node:boron
 
-COPY package.json package.json
-RUN apt-get -y update
-RUN apt-get -y install nodejs
-RUN apt-get -y install npm
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY package.json /usr/src/app/
 RUN npm install
 
-# Add your source files
-COPY . .
-CMD ["npm","start"]  
+# Bundle app source
+COPY . /usr/src/app
+
+EXPOSE 8080
+CMD [ "npm", "start" ]
