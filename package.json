@@ -1,7 +1,7 @@
 {
   "name": "feturnip",
   "version": "1.0.0",
-  "description": "",
+  "description": "lets get it",
   "main": "index.js",
   "engines": {
     "node": "6.9.4"
@@ -71,6 +71,6 @@
     "webpack-dev-server": "1.16.2"
   },
   "devDependencies": {
-    
+
   }
 }

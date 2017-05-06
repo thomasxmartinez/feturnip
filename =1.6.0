@@ -1,0 +1,12 @@
+feturnip@1.0.0 /Users/tommytnez/feturnip/feturnip
+├── UNMET PEER DEPENDENCY enzyme@2.0.0
+├─┬ UNMET PEER DEPENDENCY eslint@3.19.0 invalid
+│ ├── doctrine@2.0.0 
+│ ├─┬ esquery@1.0.0 
+│ │ └── estraverse@4.2.0 
+│ ├─┬ shelljs@0.7.7 
+│ │ └── rechoir@0.6.2 
+│ └── strip-json-comments@2.0.1 
+├── UNMET PEER DEPENDENCY react@15.3.2
+└── UNMET PEER DEPENDENCY webpack@2.1.0-beta.25
+
