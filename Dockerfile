@@ -1,14 +1,8 @@
-FROM alpine:3.1
+FROM risingstack/alpine:3.3-v4.2.6-1.1.3
 
-# Update
-RUN apk add --update nodejs
+COPY package.json package.json
+RUN npm install
 
-# Install app dependencies
-COPY package.json /src/package.json
-RUN cd /src; npm install
-
-# Bundle app source
-COPY . /src
-
-EXPOSE  8080
-CMD ["node", "/src/server.js"]
+# Add your source files
+COPY . .
+CMD ["npm","start"]  
