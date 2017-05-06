@@ -29,6 +29,7 @@
   "homepage": "https://github.com/thomasxmartinez/feturnip#readme",
   "dependencies": {
     "axios": "^0.15.3",
+    "babel-core": "6.16.0",
     "express": "4.14.0",
     "history": "^4.4.0",
     "lodash": "4.16.2",
@@ -42,7 +43,6 @@
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
-    "babel-core": "6.16.0",
     "babel-jest": "16.0.0",
     "babel-loader": "6.2.7",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
