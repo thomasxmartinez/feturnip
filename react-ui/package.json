@@ -71,6 +71,7 @@
     "webpack-dev-server": "1.16.2"
   },
   "devDependencies": {
-
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.7"
   }
 }
