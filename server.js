@@ -1,4 +1,4 @@
-require('babel-register')
+const babelRegister = require('babel-register')
 
 const express = require('express')
 const React = require('react')
