@@ -1,29 +1,30 @@
 const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
   context: __dirname,
   entry: './js/ClientApp.js',
-  devtool: 'cheap-module-source-map',
+  // devtool: 'cheap-module-source-map',
   output: {
     path: path.join(__dirname, '/public'),
-    publicPath: '/public/',
-    filename: 'bundle.js'
-  },
-  resolve: {
-    // alias: {
-    //   react: 'preact-compat',
-    //   'react-dom': 'preact-compat'
-    // },
-    extensions: ['.js', '.jsx', '.json']
-  },
-  stats: {
-    colors: true,
-    reasons: true,
-    chunks: false
+    filename: 'bundle.js',
+    publicPath: '/public/'
   },
   devServer: {
     publicPath: '/public/',
     historyApiFallback: true
+  },
+  resolve: {
+    extensions: ['.js', '.json'],
+    alias: {
+      react: 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
+  stats: {
+    colors: true,
+    reasons: true,
+    chunks: true
   },
   module: {
     rules: [
@@ -32,6 +33,18 @@ module.exports = {
         test: /\.js$/,
         loader: 'eslint-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      },
+      {
+        include: [
+          path.resolve(__dirname, 'js'),
+          path.resolve('node_modules/preact-compat/src')
+        ],
+        test: /\.js$/,
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
@@ -44,18 +57,6 @@ module.exports = {
             }
           }
         ]
-      },
-      {
-        test: /\.js?$/,
-        loader: 'babel-loader',
-        include: [
-          path.resolve('js'),
-          path.resolve('node_modules/preact-compat/src')
-        ]
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
       }
     ]
   }
